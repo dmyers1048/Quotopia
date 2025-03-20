@@ -80,7 +80,7 @@ struct ContentView: View {
         //warning if cant get data frm api
         .alert(isPresented: $showingAlert) {
             Alert(title: Text("Loading Error"),
-                  message: Text("There was a problem loading your quote. \nCheck network connection or API."),
+                  message: Text("There was a problem loading your quote. \nPlease check network connection or API."),
                   dismissButton: .default(Text("OK")))
         }
     }
